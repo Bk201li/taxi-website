@@ -32,8 +32,8 @@
     <!-- CONTACT INFOS -->
     <section id="contactInfos">
         <div class="container">
-            <div id="contactInfos-title">
-                <h2><strong>CONTACT</strong> INFO</h2>
+            <div class="title">
+                <h2><strong>Contact</strong> Info</h2>
             </div>
             <div id="contactInfos-maps-container">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2897.5895839738487!2d1.3464640153768423!3d43.42740097912968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aec93915f0ff5d%3A0xdae0cbb8d330742b!2sTAXIS%20LLORENS!5e0!3m2!1sfr!2sfr!4v1580636481008!5m2!1sfr!2sfr" width="1170" height="415" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -76,6 +76,24 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- FEEDBACK -->
+    <section id="feedback">
+        <div class="container">
+            <div class="title">
+                <h2><strong>feedback</strong></h2>
+            </div>
+            <div id="contact-wrap">
+                <form action="contact.php" method="post">
+                    <input class="formulaire" type="text" name="nom"placeholder="Nom" required="">
+                    <input class="formulaire" type="text" name="prenom" placeholder="Prénom" required="">
+                    <input class="formulaire" type="email" name="mail" placeholder="Email" required="">
+                    <input class="formulaire" type="text" name="phoneNumber" placeholder="Numéro de téléphone" required="">
+                    <textarea class="formulaire" name="message" placeholder="Votre message" rows="15" required=""></textarea>
+                    <button type="submit" name="submit">Envoyer</button>
+                </form>
             </div>
         </div>
     </section>
