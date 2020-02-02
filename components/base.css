@@ -77,6 +77,10 @@ header p{
     margin-right: 2vw;
 }
 
+#header-row a{
+  text-decoration: none;
+}
+
 #header-row p{
     font-weight: 900;
     font-style: normal;
@@ -173,6 +177,10 @@ footer{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+  .container{
+    width: auto;
+  }
+
     #header-row p{
         font-size: 20px;
         margin-left: 0;
@@ -185,7 +193,10 @@ footer{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+  .container{
+    width: auto;
 
+  }
     nav{
         display: none;
     }
@@ -429,13 +440,37 @@ footer{
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width:769px) and (max-width: 992px) {
+  .container{
+    width: auto;
+  }
 
+  #header-row p{
+    font-size: 20px;
+    margin-left: 0;
+  }
+
+  #header-row img{
+      width: 65%;
+  }
+
+  #header-logo p{
+    font-size: 60px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width:993px) and (max-width: 1200px) {
   .container{
     width: auto;
+  }
+
+  #header-row p{
+    font-size: 30px;
+    margin-left: 0;
+  }
+
+  #header-row img{
+      width: 75%;
   }
 }
