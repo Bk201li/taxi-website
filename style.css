@@ -275,6 +275,27 @@
     #call-us-row img{
         width: 70px;
     }
+
+    .social-proof-row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #social-proof-first-row{
+        padding-bottom: 10px;
+    }
+
+    .social-proof-content{
+        padding-bottom: 10px;
+    }
+
+    .social-proof-content-img img{
+        width: 80px;
+    }
+
+    .social-proof-content-text p{
+        font-size: 20px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -301,6 +322,14 @@
 
     #call-us-row img{
         width: 90px;
+    }
+
+    .social-proof-content-img img{
+        width: 100px;
+    }
+
+    .social-proof-content-text p{
+        font-size: 35px;
     }
 }
 
@@ -329,6 +358,14 @@
     #call-us-row img{
         width: 110px;
     }
+
+    .social-proof-content-img img{
+        width: 120px;
+    }
+
+    .social-proof-content-text p{
+        font-size: 50px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -355,5 +392,13 @@
 
     #call-us-row img{
         width: 130px;
+    }
+
+    .social-proof-content-img img{
+        width: 140px;
+    }
+
+    .social-proof-content-text p{
+        font-size: 65px;
     }
 }
