@@ -89,7 +89,7 @@
                             <img src="../assets/images/mail.png" alt="Image enveloppe">
                         </div>
                         <div class="contactInfos-icon-container-content-text">
-                            <p class="lead"><a data-action="mail" href="mailto:MAIL@DEMOLINK.ORG">llorenstaxi@gmail.com</a></p>
+                            <p class="lead"><a data-action="mail" href="mailto:llorenstaxi@gmail.com">llorenstaxi@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
