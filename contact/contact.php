@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
 
     $mailTo = "llorenstaxi@gmail.com";
     $headers = "From: ".$mail;
-    $txt = "You have received an e-mail from ".$prenom. $nom. .$phone.".\n\n".$message;
+    $txt = "Vous avez reçu un mail de ".$prenom. $nom. .$phone".\n\n".$message;
 
     mail($mailTo, $subject, $txt, $headers);
     header("Location: index.php?mailsend");
