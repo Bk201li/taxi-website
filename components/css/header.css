@@ -1,0 +1,117 @@
+/* HEADER */
+
+header{
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+header p{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#header-logo{
+    box-sizing: border-box;
+    margin-left: 1vw;
+}
+
+#header-logo p{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 70px;
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+#header-logo span{
+    color: #ffd405;
+}
+
+#header-row{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 2vw;
+}
+
+#header-row a{
+  text-decoration: none;
+}
+
+#header-row p{
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 45px;
+    letter-spacing: 0px;
+    box-sizing: border-box;
+    margin-left: 2vw;
+}
+
+.menu-wrap{
+    display: none;
+}
+
+.menu a{
+  font-size: .8em;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    #header-row p{
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    #header-row img{
+        width: 65%;
+    }
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {  
+    #header-row{
+        margin: 30px auto;
+    }
+
+    #header-logo{
+        display: none;
+    }
+}
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width:769px) and (max-width: 992px) {
+    #header-row p{
+      font-size: 20px;
+      margin-left: 0;
+    }
+  
+    #header-row img{
+        width: 65%;
+    }
+  
+    #header-logo p{
+      font-size: 60px;
+    }
+}
+  
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width:993px) and (max-width: 1200px) {
+    #header-row p{
+      font-size: 30px;
+      margin-left: 0;
+    }
+  
+    #header-row img{
+        width: 75%;
+    }
+}
