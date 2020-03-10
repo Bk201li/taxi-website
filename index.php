@@ -1,49 +1,27 @@
+<!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Taxi Llorens</title>
+    <?php
+    include "components/php/includes/head.php";
+    ?>
 </head>
+
 <body>
     <!-- HEADER -->
     <header>
         <div id="header-logo">
             <p><span>T</span>axi</p>
         </div>
-        <nav id="header-nav">
-            <ul>
-                <li><a class="active" href="#">Accueil</a></li>
-                <li><a href="services/">Services</a></li>
-                <li><a href="infos/">Infos</a></li>
-                <li><a href="contact/">Contact</a></li>
-            </ul>
-        </nav>
         <div id="header-row">
             <div>
                 <a href="tel:0766465472"><img src="assets/images/phone.png" alt="Image téléphone"></a>
             </div>
             <div>
-                <a href="tel:0766465472"><p>07 66 46 54 72</p></a>
+                <a href="tel:0766465472">
+                    <p>07 66 46 54 72</p>
+                </a>
             </div>
-        </div>
-        <!-- RESPONSIVE MENU -->
-        <div class="menu-wrap">
-            <input type="checkbox" class="toggler">
-            <div class="hamburger"><div></div></div>
-                <div class="menu">
-                    <div>
-                        <div>
-                            <ul>
-                                <li><a class="active" href="#">Accueil</a></li>
-                                <li><a href="services/">Services</a></li>
-                                <li><a href="infos/">Infos</a></li>
-                                <li><a href="contact/">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
         </div>
     </header>
     <!-- SLOGAN -->
@@ -71,8 +49,10 @@
                         <strong>Contactez nous</strong> 24h/24h
                     </p>
                     <p class="lead2">07 66 46 54 72</p>
-                    <p class="lead3">LOREM IPSUM DOLOR SIT AMET CONSE CTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE 
-                        MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT.</p>
+                    <p class="lead3">LOREM IPSUM DOLOR SIT AMET CONSE CTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR
+                        INCIDIDUNT UT LABORE ET DOLORE
+                        MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP
+                        EX EA COMMODO CONSEQUAT.</p>
                 </div>
             </div>
         </div>
@@ -135,54 +115,40 @@
                 <h2><strong>A propos</strong> de l'entreprise</h2>
             </div>
             <div id="about-subtitle">
-                <h4>LOREM IPSUM DOLOR SIT AMET CONSE CTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. 
+                <h4>LOREM IPSUM DOLOR SIT AMET CONSE CTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE
+                    ET DOLORE MAGNA ALIQUA.
                     UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO.</h4>
             </div>
             <div id="about-row">
                 <div class="about-text">
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua. Ut enim ad minim veniam, quis nos- trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nos- trud exercitation ullamco laboris nisi ut aliquip ex
+                        ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint
                         occaecat</p>
                 </div>
                 <div class="about-text">
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua. Ut enim ad minim veniam, quis nos- trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nos- trud exercitation ullamco laboris nisi ut aliquip ex
+                        ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint
                         occaecat</p>
                 </div>
             </div>
             <button type="button" onclick="window.location.href='infos/'" id="read-more-button">Plus d'infos</button>
         </div>
     </section>
-    <!-- CARS
-    <section id="cars">
-        <div class="container">
-            <div id="cars-wrap">
-
-            </div>
-        </div>
-    </section> -->
     <!-- FOOTER -->
     <footer>
-        <div class="container">
-            <div id="footer-wrap">
-                <div id="footer-logo">
-                    <p><span>T</span>axi</p>
-                </div>
-                <div id="footer-socialMedias">
-                    <a href="https://www.google.fr/maps/place/TAXIS+LLORENS/@43.427401,1.346464,17z/data=!3m1!4b1!4m5!3m4!1s0x12aec93915f0ff5d:0xdae0cbb8d330742b!8m2!3d43.427401!4d1.3486527" target="_blank">
-                        <div id="footer-socialMedias-circle">
-                            <i class="fab fa-google"></i>
-                        </div>
-                    </a>
-                </div>
-                <div id="footer-copyright">
-                    <p>Taxi Llorens © 2020.</p>
-                </div>
-            </div>
-        </div>
+        <?php
+        include "components/php/includes/footer.php";
+        ?>
     </footer>
     <script src="https://kit.fontawesome.com/e6c2645393.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

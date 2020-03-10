@@ -1,4 +1,4 @@
-@import url("components/base.css");
+@import url("components/css/base.css");
 
 /* SLOGAN */
 
@@ -240,13 +240,6 @@
 #read-more-button:hover{
     background-color: #262626;
 }
-
-/* CARS */
-
-#cars{
-    background-color: #e8e8e8;
-}
-
 
 /* MEDIA QUERIES */
 
